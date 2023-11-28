@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+.container {
+width: 1200px;
+margin:0 auto;
+}
+.container div {
+outline: 2px solid red;
+}
+
+.first {
+  background: green;
+  font-size: 0px;
+}
+
+.first > div {
+height: 400px;
+width: 400px;
+display: inline-block;
+font-size: 20px;
+}
+
+.second{
+ background: yellow;
+ font-size: 0px;
+ 
+}
+
+.second > div {
+  width: 800px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.second > div > div {
+  height: 200px;
+}
+
+.second > div + div {
+   width: 400px;
+}
+
+.second > div + div > div {
+  height: 133.33px;
+}
+.third{
+background: gray;
+font-size: 0px;
+
+
+}
+
+.third > div {
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+
+.third > div + div {
+  width: 800px;
+}
+
+.third > div + div > div {
+  height: 200px;
+}
+
+.third > div > div > div {
+  width: 400px;
+  height: 200px;
+  display: inline-block;
+}
+
+.third > div > div > div + div {
+  height: 100px;
+  display: inline-block;
+}
