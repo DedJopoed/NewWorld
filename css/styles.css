@@ -54,6 +54,7 @@ font-size: 0px;
   width: 400px;
   height: 400px;
   display: inline-block;
+  font-size: 0px;
 }
 
 .third > div + div {
@@ -70,7 +71,9 @@ font-size: 0px;
   display: inline-block;
 }
 
-.third > div > div > div + div {
+.third > div > div > div > div {
+  font-size: 20px;
   height: 100px;
+  width: 400px;
   display: inline-block;
 }
