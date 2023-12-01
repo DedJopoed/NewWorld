@@ -22,8 +22,9 @@ outline: 2px solid red;
 .first > div {
 height: 400px;
 width: 400px;
-display: inline-block;
+/* display: inline-block; */
 font-size: 20px;
+float: left;
 }
 
 .second{
@@ -34,8 +35,9 @@ font-size: 20px;
 
 .second > div {
   width: 800px;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 16px;
+  float: left;
 }
 
 .second > div > div {
@@ -58,8 +60,9 @@ font-size: 0px;
 .third > div {
   width: 400px;
   height: 400px;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 0px;
+  float: left;
 }
 
 .third > div + div {
@@ -73,12 +76,14 @@ font-size: 0px;
 .third > div > div > div {
   width: 400px;
   height: 200px;
-  display: inline-block;
+  /* display: inline-block; */
+  float: left;
 }
 
 .third > div > div > div > div {
   font-size: 20px;
   height: 100px;
   width: 400px;
-  display: inline-block;
+  /* display: inline-block; */
+  float: left;
 }
