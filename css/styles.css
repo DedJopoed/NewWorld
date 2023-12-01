@@ -1,5 +1,11 @@
 @import url(reset.css);
 
+.clearfix::after {
+content: '';
+display: block;
+clear: both;
+}
+
 .container {
 width: 1200px;
 margin:0 auto;
@@ -43,11 +49,10 @@ font-size: 20px;
 .second > div + div > div {
   height: 133.33px;
 }
+
 .third{
 background: gray;
 font-size: 0px;
-
-
 }
 
 .third > div {
